@@ -29,9 +29,11 @@
     <a href="#" onclick="alert('Desarrollo del producto en equipo. Entorno colaborativo de la materia de Produccion y mercadeo de software!!!')"><font color="white"> Ayuda!!! </font></a><br>
     
    <!--Chayanne Perez Matricula 103-8222   -->
-      <a href="https://github.com/proyectodatsrd/pruebapms/graphs/contributors"><font color="white"> Contribuyentes</font></a>
-      <a href="space_ridiculus_1.html"><font color="white"> Reiniciar el Juego</font></a>
-      <a onclick="javascript:window.close();" href="#">Salir del Juego</a>
+      <FORM>
+	<INPUT TYPE="button" VALUE="Contribuyentes" onClick="window.location.href='https://github.com/proyectodatsrd/pruebapms/graphs/contributors'">
+	<INPUT TYPE="button" VALUE="Reiniciar el Juego" onClick="window.location.href='space_ridiculus_1.html'">
+	<INPUT TYPE="button" VALUE="Salir del Juego" onClick="javascript:window.close();">
+       </FORM>
 
     <!creamos nuestro lienzo>
     <canvas id="Lienzo" width="640" height="400"></canvas>
