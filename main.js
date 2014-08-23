@@ -46,7 +46,7 @@ var Heroe = function(x,y){
     delete this.Hers;
     //cargamos su imagen
     this.imagen_redi = false;
-    this.image.src = "datos/nave.png";
+    this.image.src = "datos/nave_luis_2.png";
     this.image.onload = function () {
         this.imagen_redi = true;
         };
@@ -86,7 +86,7 @@ var Villano = function(){
         this.direction = -this.direction;
         };
     this.vel = random(20)+5;
-    this.image.src = "datos/enemigo.png";
+    this.image.src = "datos/nave_luis_5.png";
     this.update = function(){
         if (this.x> 640 || this.x < 0){
             this.direction = -this.direction;
@@ -261,7 +261,7 @@ run = function(){
             for(i=0;i<Enemigos.length;i++){
                 if(Enemigos[i].contador<=0){
                     Disparos_e .push( new disparo_e(Enemigos[i].x,Enemigos[i].y));
-                    Enemigos[i].contador = 30;
+                    Enemigos[i].contador = 300;
                     };
                 };
             };
